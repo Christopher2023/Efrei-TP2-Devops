@@ -12,3 +12,6 @@
 1. D'abord, j'ai créé le Dockerfile et y ai configuré mon image. Pour ce faire, adapter mon code en y ajoutant dans le **RUN** du Dockerfile la librairie hug et la version.
 2. Enfin, j'ai modifié le **CMD** afin de lancer hug lorsque je run mon docker
 3. J'ai rencontré un problème majeur, et ce lorsque j'utilisais le run pour lancer mon docker : ma variable d'environnement n'était pas prise en compte. J'y ai réfléchi pendant longtemps,  j'ai même contacté un ami de classe et on a pas pu résoudre ce problèm mais ensuite il a proposé d'entrer dans le docker pour voir ce qui se passait, ce qu'on a fait. Là nous nous sommes rendus compte que tout fonctionnait très bien depuis le départ, mais pour une raison que j'ignore sur mon ordinateur ça ne fonctionnait pas. Je lui ai envoyé le code pour tester sur sa machine et tout a bien fonctionné donc c'était bel et bien mon ordinateur qui posait problème.
+
+
+Saisissez plutôt la commande ```curl "http://localhost:8081/echo?lat=5.902785&lon=102.754175"``` si vous voulez avoir une sortie directe des données
