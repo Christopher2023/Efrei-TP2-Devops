@@ -3,7 +3,7 @@ import os
 import hug
 
 
-@hug.get('/')
+@hug.get('/echo')
 def echo(lat:hug.types.text, lon:hug.types.text):
 
     url = "http://api.openweathermap.org/data/2.5/weather?"
