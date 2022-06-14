@@ -1,6 +1,6 @@
 name: docker-image
 
-on: push
+on: push 
 
 jobs:
   docker_test:
